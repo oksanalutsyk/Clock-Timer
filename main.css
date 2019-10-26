@@ -1,0 +1,153 @@
+@font-face{
+    font-family: "DIGIT";
+    src: url(FONT/7fonts.ru_DS-DIGII.TTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background-color: rgb(20, 20, 41)
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-family: "DIGIT";
+}
+
+.one, .two,.three{
+    width: 100%;
+    margin: 20px 0;
+    background-color: rgb(32, 32, 59)
+}
+.one{
+    margin-top:0;
+    height: 25%;
+}
+.three{
+    margin-bottom: 0;
+    height: 35%;
+   
+}
+.timer{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 20px;
+}
+#clock, #date{
+   text-align: center;
+   color: rgb(125, 147, 167)
+}
+#date{
+   padding: 20px;
+}
+#clock{
+    font-size: 40px;
+}
+.stopwatch, .wrapper{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+.left {
+    width: 25%;
+    height: 200px;
+}
+.sWatch{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.right, .right2{
+    padding-top: 32px;
+    border: 1px solid rgb(125, 147, 167);
+    display: block;
+    overflow: auto;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(95, 155, 173);
+    text-shadow: 0 0 1px rgb(199, 208, 216);
+    width: 25%;
+    height: 200px;
+}
+.right2{
+    overflow: hidden;
+    border: none
+
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 200px;
+}
+.number{
+    font-size: 30px;
+    color: rgb(95, 155, 173);
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+.minus,.plus{
+    height: 70%;
+    width: 15%;
+    margin: 20px 2px 0 2px;
+}
+.sw{
+    color: rgb(125, 147, 167);
+    font-size: 70px;
+
+}
+.f2{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 10px;
+    height: 100px;
+}
+
+.number{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 700px;
+    color:rgb(125, 147, 167)
+}
+.minutes{
+    color: rgb(125, 147, 167);
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+button{
+    color: rgb(125, 147, 167);
+    background-color: rgb(50, 50, 90);
+    border: 1px solid rgb(125, 147, 167);
+    width: 24%;
+    height: 30%;
+    border-radius: 3px;
+    text-shadow:  0 0 1px white;
+    box-shadow:  0 0 1px white;
+
+}
+.startCopy, .startCopy2{
+    display: none
+}
